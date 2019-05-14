@@ -16,19 +16,26 @@ This is the command to install the breathecode-cli
 $ npm i breathecode-cli -g
 ```
 
-2) Download the react exercises in the current directory run:
+2) To download the react exercises in the current directory run:
 ```
 $ bc start:react-exercises -r
 ```
 
-Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
+Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within. If you already have an exercises folder, just cd inside.
 
-3) Start the tutorial/exercises by running the following command from the root of the project:
+3) Start the tutorial/exercises by running the following command from the root of the project (in /exercises):
 
 ```sh
 $ npm i jest@23.6.0 -g
+```
+
+4) Move up one level with "cd .." and run the following to start the exercises:
+
+```sh
 $ bc run:exercises
 ```
+
+Note: If running in Gitpod.io, it is recommended to use "Open Preview" instead of "Open Browser" to keep the session active.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
